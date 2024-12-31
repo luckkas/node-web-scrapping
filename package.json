@@ -1,0 +1,20 @@
+{
+  "name": "web-scrappy",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon --inspect src/main.js"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "Lucas Melo",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.10.2",
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "nanoid": "^5.0.9",
+    "sqlite3": "^5.1.7"
+  }
+}
